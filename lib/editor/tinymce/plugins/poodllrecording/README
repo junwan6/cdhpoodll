@@ -1,0 +1,13 @@
+# PoodLL TinyMCE Plugin
+
+The PoodLL TinyMCE plugin requirs PoodLL package.  Please first install the PoodLL Filter and PoodLL Recording.
+
+PoodLL package installation instructions and video can be found at http://www.poodll.com .
+
+# Installation
+
+Login to your site as an administrator and go to your Moodle site's "notifications" page. 
+Moodle should then guide you through the installation or upgrade of this plugin. 
+You can probably accept the defaults, scroll to the bottom of the page and press save.
+
+All of the PoodLL mods require the PoodLL filter to be installed. 

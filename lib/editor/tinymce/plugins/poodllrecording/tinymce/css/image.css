@@ -1,0 +1,54 @@
+// This file is not a part of Moodle - http://moodle.org/
+// This is a none core contributed module.
+//
+// This is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// The GNU General Public License
+// can be see at <http://www.gnu.org/licenses/>.
+
+/*
+ * __________________________________________________________________________
+ *
+ * PoodLL TinyMCE for Moodle 2.x
+ *
+ * This plugin need to use together with Poodll filter.
+ *
+ * @package    poodllrecording
+ * @subpackage tinymce_poodllrecording
+ * @copyright  2013 UC Regents
+ * @copyright  2013 Justin Hunt  {@link http://www.poodll.com}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ *
+ * __________________________________________________________________________
+ */
+
+#src_list, #over_list, #out_list {width:280px;}
+.mceActionPanel {margin-top:7px;}
+.moodlebutton {
+    font-size: 1.5em;
+    font-weight:bold;
+    padding: 3px 3px 3px 1.5em;
+    border:1px solid #ccc;
+    text-decoration:none;
+    background: url(search.png) .2em .3em no-repeat;
+}
+.moodlebutton:hover {background: #ccc}
+.alignPreview {border:1px solid #000; width:140px; height:140px; overflow:hidden; padding:5px;}
+.checkbox {border:0;}
+.panel_wrapper div.current {height:305px;}
+#prev {margin:0; border:1px solid #000; width:428px; height:180px; overflow:auto;}
+#align, #classlist {width:150px;}
+#width, #height {vertical-align:middle; width:50px; text-align:center;}
+#vspace, #hspace, #border {vertical-align:middle; width:30px; text-align:center;}
+#class_list {width:180px;}
+input {width: 280px;}
+#constrain, #onmousemovecheck {width:auto;}
+#id, #title, #dir, #lang, #usemap, #longdesc {width:200px;}
